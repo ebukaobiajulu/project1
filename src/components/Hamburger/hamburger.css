@@ -1,5 +1,7 @@
 .hamburger-menu {
     position: relative;
+    z-index: 50;
+    display: none;
   }
   
   .hamburger-icon {
@@ -41,6 +43,8 @@
     right: 0;
     top: 40px;
     width: 200px;
+    /* width: 100vw; */
+    /* height: 100vh; */
   }
   
   .menu ul {
@@ -62,4 +66,11 @@
   
   .menu ul li:hover {
     background: #f1f1f1;
+  }
+
+  /* Media Queries */
+  @media screen and (max-width: 600px){
+    .hamburger-menu {
+      display: block;
+    }
   }

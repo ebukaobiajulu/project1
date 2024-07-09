@@ -22,70 +22,7 @@ const Menu = () => {
             </div>
           );
         })}
-        {/* <div className="product-col">
-            <ProductCard
-              productName='AirPods Max'
-              productPrice={'$' + 545.00}
-              description="A perfect balance for high-fidelity audio"              
-              review="(123 reviews)"
-            />
-        </div>
-        <div className="product-col">
-            <ProductCard
-              productName='Beats'
-              productPrice={'$' + 545.00}
-              description="A perfect balance for high-fidelity audio"              
-              review="(123 reviews)"
-            />
-        </div>
-        <div className="product-col">
-            <ProductCard
-              productName='Soundcore Anker P20i '
-              productPrice={'$' + 545.00}
-              description="A perfect balance for high-fidelity audio"              
-              review="(123 reviews)"
-            />
-        </div>
-        <div className="product-col">
-            <ProductCard
-              productName='Apple AirPods 2'
-              productPrice={'$' + 545.00}
-              description="A perfect balance for high-fidelity audio"              
-              review="(123 reviews)"
-            />
-        </div>
-        <div className="product-col">
-            <ProductCard
-              productName='JBL Vibe 200TWS'
-              productPrice={'$' + 545.00}
-              description="A perfect balance for high-fidelity audio"              
-              review="(123 reviews)"
-            />
-        </div>
-        <div className="product-col">
-            <ProductCard
-              productName='SAMSUNG Galaxy Buds'
-              productPrice={'$' + 545.00}
-              description="A perfect balance for high-fidelity audio"              
-              review="(123 reviews)"
-            />
-        </div>
-        <div className="product-col">
-            <ProductCard
-              productName='Soundcore Life P3i'
-              productPrice={'$' + 545.00}
-              description="A perfect balance for high-fidelity audio"              
-              review="(123 reviews)"
-            />
-        </div>
-        <div className="product-col">
-            <ProductCard
-              productName='Anker Life Q20'
-              productPrice={'$' + 545.00}
-              description="A perfect balance for high-fidelity audio"              
-              review="(123 reviews)"
-            />
-        </div> */}
+        
       </div>
     </div>
   );
