@@ -14,3 +14,10 @@ a{
     width: 90%;
     margin: auto;
 }
+
+
+@media screen and (max-width: 600px){
+    .nav{
+      display: none;
+    }
+  }

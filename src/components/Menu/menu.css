@@ -22,3 +22,9 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+/* Media queries */
+@media screen and (max-width: 600px){
+    .main-col{
+        grid-template-columns: 1fr;
+    }
+}

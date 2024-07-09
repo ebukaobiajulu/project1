@@ -49,3 +49,15 @@
   position: absolute;
   left: 0.5rem;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 600px){
+  .lang, .search-bar{
+    display: none;
+  }
+
+  .container{
+    width: 100%;
+  }
+}

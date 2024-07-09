@@ -48,3 +48,8 @@
     font-size: 1rem;
 }
 
+@media screen and (max-width: 600px){
+    .lang, .search-bar{
+      display: none;
+    }
+  }
