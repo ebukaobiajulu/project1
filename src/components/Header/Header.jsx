@@ -7,7 +7,6 @@ import heartLogo from "../../assets/heart.png";
 import avatar from "../../assets/avatar.png";
 import search from "../../assets/search-icon.png";
 import HamburgerMenu from "../Hamburger/Hamburger";
-import hamburgerMenu from "../../assets/hamburger-menu.png";
 import "./header-styles.css";
 
 const Header = () => {
