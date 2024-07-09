@@ -1,0 +1,15 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.addToCartBtn{
+    background-color: #24293F;
+    color: #fff;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 0.75rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+*{
+  padding: 0; box-sizing: border-box; margin: 0;
+}
+:root{
+  --primary-color: #24293F;
+  --poppins-font: "Poppins", sans-serif;
+}
+.container{
+  width: 90%;
+  padding: 2rem;
+}
+body{
+  background-color: #f2f2f8;  
+}
+.primary-color{
+  color: var(--primary-color);
+}

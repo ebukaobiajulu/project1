@@ -1,0 +1,29 @@
+.flex-display-cart{
+    display: flex;
+    flex: 1;
+    
+}
+.flex-mycart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.75rem;
+}
+.cart-items-left{
+    display: flex;
+    flex-direction: column;
+}
+.order-summary-right{
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.cart-button{
+    width: 100%;
+    background-color: #24293F;
+    font-family: "Poppins";
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    border: none; outline: none;
+    color: #fff;
+}

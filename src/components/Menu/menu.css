@@ -1,0 +1,24 @@
+:root{
+    --primary-color: #24293F;
+    --poppins-font: "Poppins", sans-serif;
+  }
+  .primary-color{
+    color: #24293F;
+}
+.main-col{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-block: 2rem;
+    
+}
+.product-col{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+

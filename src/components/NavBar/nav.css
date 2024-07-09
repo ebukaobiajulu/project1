@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: #737584;
+}
+.nav{
+    padding: 1.5rem 3rem;
+    border-bottom: solid 1px #737584;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 3rem;
+    width: 90%;
+    margin: auto;
+}

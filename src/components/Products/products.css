@@ -1,0 +1,50 @@
+:root{
+    --primary-color: #24293F;
+    --poppins-font: "Poppins", sans-serif;
+  }
+  .primary-color{
+    color: #24293F;
+}
+
+.product-images{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f2f2f8;
+    border-radius: 0.75rem;
+    position: relative;
+    padding: 2rem;
+}
+.flex-display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.like-icon{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.reviews{
+    display: flex;
+    align-items: center;
+    margin-block: 0.5rem;
+}
+.reviews p{
+    font-size: 0.75rem;
+}
+.product-description{
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+.product-name-price{
+    margin-top: 0.75rem;
+}
+.product-name-price h4{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
