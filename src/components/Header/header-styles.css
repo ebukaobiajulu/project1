@@ -54,10 +54,21 @@
 /* Media Queries */
 @media screen and (max-width: 600px){
   .lang, .search-bar{
-    display: none;
+    display: block;
   }
 
   .container{
     width: 100%;
+    padding: 0;
   }
+  .header-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .logo{
+    width: 20rem;
+    align-items: flex-start;
+  }
+  
 }
