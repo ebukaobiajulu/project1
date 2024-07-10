@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./hamburger.css"
 
 function HamburgerMenu() {
@@ -19,10 +19,10 @@ function HamburgerMenu() {
       {isOpen && (
         <div className="menu">
           <ul>
-            <li>Home</li>
+            <Link to={"/"}><li>Home</li></Link>
             <li>Search</li>
             <li>Wishlist</li>
-            <li>My Cart</li>
+            <Link to={"/mycart"}><li>My Cart</li></Link>
             <li>Profile</li>
           </ul>
         </div>

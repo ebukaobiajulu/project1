@@ -13,7 +13,7 @@ let data_product = [
     id: 1,
     image: Product7,
     imageBig: Product7a,
-    productName: "AirPods Max",
+    productName: "AirPoDds Max",
     productPrice: 545.00,
     description: "A perfect balance for high-fidelity audio",
     review: "(123 reviews)",
