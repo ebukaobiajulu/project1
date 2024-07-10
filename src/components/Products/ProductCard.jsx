@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import AddToCartButton from "../Button/AddToCartButton";
+// import AddToCartButton from "../Button/AddToCartButton";
 import LikeImg from "../../assets/like.png";
 import Ratings from "../../assets/rating.png";
 import "./products.css";
@@ -25,7 +25,7 @@ const ProductCard = (props) => {
             <img src={Ratings} alt="" />
             <p>{props.review}</p>
           </div>
-          <AddToCartButton />
+          <button className="addtocart-btn">Add to Cart</button>
         </div>
       </div>
     </div>
