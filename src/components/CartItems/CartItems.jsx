@@ -15,7 +15,7 @@ const CartItems = (props) => {
       <div className="conltainer">
         <div className="page-navigation">
           <Link to={"/"}>
-            <p>Products</p>
+            <p>Home</p>
           </Link>
           /MyCart
         </div>
@@ -49,7 +49,7 @@ const CartItems = (props) => {
 
           {data_product.map((e)=>{
             if (cartItems[e.id] > 0){
-                <div className="order-summary-right">
+                return <div className="order-summary-right">
             <h2>Order summary</h2>
             <div className="flex-mycart">
               <p>Subtotal</p>

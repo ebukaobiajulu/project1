@@ -9,6 +9,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ProductDetails from "./pages/Product-Details/ProductDetails.jsx";
 
+import AddToCartButton from "./components/AddToCartButton/AddToCartButton.jsx";
+
 function App() {
   return (
     <div>
@@ -25,6 +27,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
         </Routes>
         <Footer />
+        <AddToCartButton />
       </BrowserRouter>
     </div>
   );
