@@ -27,7 +27,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
         </Routes>
         <Footer />
-        <AddToCartButton />
+        {/* <AddToCartButton /> */}
       </BrowserRouter>
     </div>
   );
